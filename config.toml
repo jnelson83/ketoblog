@@ -16,12 +16,12 @@ paginate        = 10
   customCSS = []
   RSSLink = ""
 
-  twitterName = "faketryghost"
-  fbName = "fakeghost"
-  githubName = "eueung"
+  twitterName = ""
+  fbName = ""
+  githubName = ""
 
   logo = ""
-  orgName = "EM"
+  orgName = "Jarrod Nelson"
   orgWebsite = "https://www.telematika.org"
   orgDescription = "Here is a description placeholder for your org"
 
@@ -34,7 +34,7 @@ paginate        = 10
   pageNotFoundTitle = "404 - Page not found"
 
   #casper or caspertwo
-  singleViewStyle = "casper"
+  singleViewStyle = "caspertwo"
 
 [permalinks]
   post = "/:slug/"
