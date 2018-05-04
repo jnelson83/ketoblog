@@ -1,0 +1,75 @@
+baseurl         = "/"
+theme           = "casper-two"
+languageCode    = "en-US"
+disqusShortname = ""
+paginate        = 10
+#SectionPagesMenu = "main"
+
+[params]
+  title       = "Keto for effortless weight loss!"
+  subtitle    = "A chronicle of my journey from super-mega-obese to a normal weight range"
+
+  cover       = "uploads/background.jpeg"
+  description = "A daily blog focusing on the ketogenic diet and associated topics"
+  metaDescription = ""
+  googleAnalytics = ""
+  customCSS = []
+  RSSLink = ""
+
+  twitterName = "faketryghost"
+  fbName = "fakeghost"
+  githubName = "eueung"
+
+  logo = ""
+  orgName = "EM"
+  orgWebsite = "https://www.telematika.org"
+  orgDescription = "Here is a description placeholder for your org"
+
+  author = "Jarrod Nelson"
+  authorAvatar = "uploads/avatar.jpg"
+  authorLocation = "Ballarat, Australia"
+  authorWebsite = ""
+  authorDescription = "A mad scientist that has waited too long to start his life"
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "casper"
+
+[permalinks]
+  post = "/:slug/"
+
+[[menu.main]]
+  name = "Main"
+  url = "/"
+  weight = 200
+
+[[menu.main]]
+  name = "What is the Keto Diet?"
+  url = "https://www.reddit.com/r/keto/wiki/keto_in_a_nutshell"
+  weight = 195
+
+[[menu.main]]
+  name = "Weight Tracker"
+  url = "/tags/weighin/"
+  weight = 90
+
+[[menu.main]]
+  name = "About Me"
+  url = "/categories/about/"
+  weight = 99
+
+[[menu.main]]
+  name = "Food Log"
+  url = "/categories/foodlog/"
+  weight = 99
+
+[[menu.main]]
+  name = "Recipes"
+  url = "/categories/recipes/"
+  weight = 99
+
+[[menu.main]]
+  name = "BMR Calculator"
+  url = "https://www.iifym.com/bmr-calculator/"
+  weight = 90
